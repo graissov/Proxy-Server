@@ -1,10 +1,3 @@
-/*
- * Starter code for proxy lab.
- * Feel free to modify this code in whatever way you wish.
- */
-
-/* Some useful includes to help you get started */
-
 #include "csapp.h"
 #include "http_parser.h"
 
@@ -55,7 +48,6 @@
 
 /*
  * Max cache and object sizes
- * You might want to move these to the file containing your cache implementation
  */
 #define MAX_CACHE_SIZE (1024 * 1024)
 #define MAX_OBJECT_SIZE (100 * 1024)
